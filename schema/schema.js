@@ -40,8 +40,6 @@ const DoctorType = new GraphQLObjectType({
           type: new GraphQLList( PatientType),
         resolve(parent, args) {
               return patients.filter((patient) => patient.doctorId === parent.id)
-              
-              
           }
     }
   }),

@@ -1,2 +1,2 @@
 # MediCure
-Express Js/ GraphQL / MongoDB Backend service for a hospital. This includes doctor, patients  and department models which can be queried using Graphiql.
+This is a mini Express Js/ GraphQL Backend service for a hospital. This includes doctors and patients database and a defined schema which is queried using Graphiql.

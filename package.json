@@ -1,0 +1,30 @@
+{
+  "name": "MediCure",
+  "version": "1.0.0",
+  "description": "Express Js/ GraphQL / MongoDB Backend service for a hospital. This includes doctor, patients  and department models which can be queried using Graphiql.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DTGlov/MediCure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DTGlov/MediCure/issues"
+  },
+  "homepage": "https://github.com/DTGlov/MediCure#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "mongoose": "^5.13.5",
+    "nodemon": "^2.0.12"
+  }
+}
